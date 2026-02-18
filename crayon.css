@@ -1,0 +1,26 @@
+/* CRAYON.CSS */
+
+* {
+    font-family: "Lora";
+    background-color: #FDEADD;
+}
+
+#title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    color: #54161E;
+}
+
+#instructions {
+    margin: 1px;
+    padding: 0.5px;
+}
+
+#declaration {
+    align-items: center;
+}
+
+.paragraphs {
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+}

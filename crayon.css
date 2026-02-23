@@ -1,26 +1,93 @@
 /* CRAYON.CSS */
 
 * {
-    font-family: "Lora";
     background-color: #FDEADD;
 }
 
 #title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
     align-items: center;
     color: #54161E;
+    font-size: x-large;
 }
 
 #instructions {
-    margin: 1px;
+    font-family: "Lora";
+    color: #54161E;
+    display: flex;
+    justify-content: center;
     padding: 0.5px;
+    margin: 1px;
 }
 
 #declaration {
-    align-items: center;
+    font-family: "Lora";
+    font-size: large;
+    color: #889DA0;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #889DA0;
+    flex-direction: column;
+    padding: 3px;
+    margin: 0px;
+    border: 0px;
 }
 
-.paragraphs {
-    margin-bottom: 3px;
-    padding-bottom: 2px;
+#paragraph_one {
+    font-size: large;
+    color: #54161E;
+    display: flex;
+    justify-content: left;
+    margin: 2px;
+}
+
+#paragraph_two {
+    font-size: large;
+    color: #54161E;
+    display: flex;
+    justify-content: left;
+    margin: 2px;
+}
+
+#paragraph_three {
+    font-size: large;
+    color: #54161E;
+    display: flex;
+    justify-content: left;
+    margin: 2px;
+}
+
+#affirmation {
+    font-family: "Lora";
+    color: #889DA0;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #889DA0;
+    padding: 3px;
+    margin-bottom: 5px;
+    border-bottom: 5px;
+}
+
+/* There is a problem with making affirmation_one a flexbox for some reason idk */
+
+#affirmation_one {
+    font-size: large;
+    color: #54161E;
+    border-top: 10px;
+    margin: 2px;
+}
+
+#affirmation_two {
+    font-size: large;
+    color: #54161E;
+    display: flex;
+    justify-content: left;
+    margin-top: 2px;
+    margin-bottom: 5px;
 }

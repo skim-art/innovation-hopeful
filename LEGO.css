@@ -1,1 +1,42 @@
 /* LEGO.css */
+
+#title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #54161E;
+    font-size: x-large;
+}
+
+#instructions {
+
+}
+
+#declaration {
+
+}
+
+#paragraph_one {
+
+}
+
+#paragraph_two {
+
+}
+
+#paragraph_three {
+
+}
+
+#paragraph_four {
+
+}
+
+#affirmation {
+
+}
+
+#facts_one {
+
+}

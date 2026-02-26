@@ -76,14 +76,14 @@
 
 /* There is a problem with making affirmation_one a flexbox for some reason idk */
 
-#affirmation_one {
+#facts_one {
     font-size: large;
     color: #54161E;
     border-top: 10px;
     margin: 2px;
 }
 
-#affirmation_two {
+#facts_two {
     font-size: large;
     color: #54161E;
     display: flex;

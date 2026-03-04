@@ -1,15 +1,11 @@
 /* CRAYON.CSS */
 
-* {
-    background-color: #FDEADD;
-}
-
 #title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #54161E;
+    color:#54161E;
     font-size: x-large;
 }
 
@@ -23,16 +19,16 @@
 }
 
 #declaration {
-    font-family: "Lora";
-    font-size: large;
-    color: #889DA0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
 
     display: flex;
     justify-content: center;
     align-items:center;
     background-color: #889DA0;
+    color:#FDEADD;
     flex-direction: column;
-    padding: 3px;
+    padding: -5px;
     margin: 0px;
     border: 0px;
 }
@@ -42,7 +38,7 @@
     color: #54161E;
     display: flex;
     justify-content: left;
-    margin: 2px;
+    margin: 10px;
 }
 
 #paragraph_two {
@@ -50,7 +46,7 @@
     color: #54161E;
     display: flex;
     justify-content: left;
-    margin: 2px;
+    margin: 10px;
 }
 
 #paragraph_three {
@@ -58,29 +54,30 @@
     color: #54161E;
     display: flex;
     justify-content: left;
-    margin: 2px;
+    margin: 10px;
 }
 
 #affirmation {
-    font-family: "Lora";
-    color: #889DA0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #FDEADD;
 
     display: flex;
     justify-content: center;
     align-items:center;
     background-color: #889DA0;
-    padding: 3px;
-    margin-bottom: 5px;
-    border-bottom: 5px;
+    padding: -5px;
+    margin: 0px;
 }
 
-/* There is a problem with making affirmation_one a flexbox for some reason idk */
+/* There is a problem with making facts_one a flexbox for some reason idk */
 
 #facts_one {
+    display: flex;
+    justify-content: left;
     font-size: large;
     color: #54161E;
-    border-top: 10px;
-    margin: 2px;
+    margin: 10px;
 }
 
 #facts_two {
@@ -88,6 +85,5 @@
     color: #54161E;
     display: flex;
     justify-content: left;
-    margin-top: 2px;
-    margin-bottom: 5px;
+    margin: 10px;
 }

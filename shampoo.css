@@ -1,33 +1,87 @@
 /* SHAMPOO.css */
 
 #title {
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#54161E;
+    font-size: x-large;
 }
 
 #instructions {
+    font-family: "Lora";
+    color: #54161E;
+    display: flex;
+    justify-content: center;
+    padding: 0.5px;
+    margin: 1px;
+}
 
+#declaration {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #889DA0;
+    color:#FDEADD;
+    flex-direction: column;
+    padding: -5px;
+    margin: 0px;
+    border: 0px;
 }
 
 #paragraph_one {
-
+    font-size: large;
+    color: #54161E;
+    display: flex;
+    justify-content: left;
+    margin: 10px;
 }
 
 #paragraph_two {
-
+    font-size: large;
+    color: #54161E;
+    display: flex;
+    justify-content: left;
+    margin: 10px;
 }
 
 #paragraph_three {
-
+    font-size: large;
+    color: #54161E;
+    display: flex;
+    justify-content: left;
+    margin: 10px;
 }
 
 #paragraph_four {
-    
+    font-size: large;
+    color: #54161E;
+    display: flex;
+    justify-content: left;
+    margin: 10px;  
 }
 
 #affirmation {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #FDEADD;
 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #889DA0;
+    padding: -5px;
+    margin: 0px;
 }
 
 #facts {
-    
+    display: flex;
+    justify-content: left;
+    font-size: large;
+    color: #54161E;
+    margin: 10px;
 }

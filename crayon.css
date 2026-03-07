@@ -70,8 +70,6 @@
     margin: 0px;
 }
 
-/* There is a problem with making facts_one a flexbox for some reason idk */
-
 #facts_one {
     display: flex;
     justify-content: left;

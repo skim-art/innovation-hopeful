@@ -1,5 +1,50 @@
 /* CRAYON.CSS */
 
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: center;
+
+    border-width: 5px;
+    border: solid;
+    border-color: #54161E;
+    background-color: #FDEADD;
+
+    position: sticky;
+    top: 0;
+}
+
+ul li a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+
+
+
+.DITHER {
+    display: block;
+    padding: 14px;
+    justify-content: left;
+}
+
+.ABOUT {
+    display: block;
+    justify-content: right;
+    padding: 14px;
+}
+
+.LEARN_MORE {
+    padding: 30px;
+    display: block;
+    justify-content: right;
+}
+
+
+
 #title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;

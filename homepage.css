@@ -3,8 +3,7 @@
 /* NAV BAR */
 
 .navbar {
-    position: sticky;
-    top: 0;
+    padding-top: 10px;
 }
 
 ul {
@@ -45,16 +44,37 @@ ul li a {
 
 /* HERO Section */
 
+/* Headline */
+
 .HERO {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    font-size: 40px;
 }
 
+#first {
+    padding-left: 75px;
+    padding-top: 50px;
+    max-width: 450px;
+    font-size: 60px;
+}
 
+#second {
+    padding-right: 35px;
+    padding-top: 50px;
+    text-align: right;
+    font-size: 80px;
+    max-width: 1600px;
+}
+
+/* Blurb below headline */
+
+#blurb_below_headline {
+    font-size: 30px;
+    text-align: center;
+}
 
 .BUTTON {
     display: flex;
@@ -81,7 +101,7 @@ button.NAV {
 }
 
 button.HERO {
-    font-size: 40px;
+    font-size: 100px;
     background-color:#889DA0;
     color:#FDEADD;
     font-family: "Lora";

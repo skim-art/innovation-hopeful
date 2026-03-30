@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}

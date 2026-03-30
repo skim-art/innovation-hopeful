@@ -74,6 +74,7 @@ ul li a {
 #blurb_below_headline {
     font-size: 30px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .BUTTON {
@@ -110,4 +111,49 @@ button.HERO {
     border-style:ridge;
 
     padding: 15px;
+}
+
+#circle {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 30px;
+
+    color:#32b3c2;
+}
+
+.info_heading {
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+.info {
+    padding: 0px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 30px;
+}
+
+.info strong {
+    color:#32b3c2;
+}
+
+#info_4 {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 30px;
+}
+
+#info_4 strong {
+    color:#32b3c2;
 }

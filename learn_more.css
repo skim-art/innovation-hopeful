@@ -11,3 +11,8 @@ a {
     justify-content: space-between;
     padding: 50px;
 }
+
+button {
+    background-color: #889DA0;
+    color:#FDEADD;
+}

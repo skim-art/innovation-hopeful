@@ -1,5 +1,60 @@
 /* UNIQLO.css */
 
+/* Navbar */
+
+.navbar {
+    padding-top: 10px;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    border: 0;
+    width: 100%;
+    height: fit-content;
+
+    background-color: #54161E;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+ul.menu li a {
+    text-decoration: none;
+    color:#FDEADD;
+}
+
+#DITHER {
+    margin-right: auto;
+    padding: 0% 10px;
+    font-size: 15px;
+}
+
+#ABOUT {
+    padding: 0% 10px;
+    font-size: 10px;
+}
+
+.LEARN {
+    padding: 0% 10px;
+    font-size: 10px;
+}
+
+button.NAV {
+    font-size: 30px;
+    background-color:#889DA0;
+    color:#FDEADD;
+    font-family: "Lora";
+
+    text-decoration: none;
+}
+
+/* Info */
+
+
+
 #title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;

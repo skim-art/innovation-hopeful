@@ -1,12 +1,35 @@
-/* COMPOST.CSS */
+<!-- Nav Bar -->
 
-/* NAVBAR */
+<div class="navbar">
+    <ul class="menu">
+
+    <div id="DITHER">
+        <li><h2><strong><a href="homepage.html" rel="noreferrer" target="_self">DITHER</a></strong></h2></li>
+    </div>
+
+    <div id="ABOUT">
+        <li><h2><strong><a href="about.html" rel="noreferrer" target="_blank">ABOUT</a></strong></h2></li>
+    </div>
+
+    <div class="LEARN">
+        <li><h2><strong><button class="NAV"><a href="learn_more.html" rel="noreferrer" target="_blank">LEARN</a></button></strong></h2></li>
+    </div>
+
+    </ul>
+</div>
+
+<!-- Info -->
+
+
+
+
+/* Navbar */
 
 .navbar {
     padding-top: 10px;
 }
 
-ul {
+ul.menu {
     list-style-type: none;
     margin: 0;
     padding: 0; 
@@ -21,7 +44,7 @@ ul {
     align-items: center;
 }
 
-ul li a {
+ul.menu li a {
     text-decoration: none;
     color:#FDEADD;
 }
@@ -52,3 +75,4 @@ button.NAV {
 }
 
 /* Info */
+

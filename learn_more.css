@@ -60,7 +60,7 @@ a {
     padding: 50px;
 }
 
-button {
+button.content {
     background-color: #889DA0;
     border-radius: 30px 50px 30px;
     width: 300px;
@@ -71,6 +71,10 @@ button {
 /* AAAHHHHHH */
 
 button.NAV {
-    height:auto;
-    width: auto;
+    font-size: 30px;
+    background-color:#889DA0;
+    color:#FDEADD;
+    font-family: "Lora";
+
+    text-decoration: none;
 }

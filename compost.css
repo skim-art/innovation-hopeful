@@ -6,7 +6,7 @@
     padding-top: 10px;
 }
 
-ul {
+ul.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0; 
@@ -53,6 +53,13 @@ button.NAV {
 
 /* Info */
 
+a {
+    font-size: 20px;
+    color: #7292d2;
+    font-weight: 1000;
+    text-decoration: none;
+}
+
 #title {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
@@ -86,79 +93,106 @@ button.NAV {
     border: 0px;
 }
 
-/*  
 
 #paragraph_one {
     font-size: large;
-    color: #54161E;
+    color: #14274e;
     display: flex;
     justify-content: left;
     margin: 10px;
 }
+
 
 #paragraph_two {
     font-size: large;
-    color: #54161E;
+    color: #14274e;
     display: flex;
     justify-content: left;
     margin: 10px;
 }
 
+ 
 #paragraph_three {
     font-size: large;
-    color: #54161E;
+    color: #14274e;
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    border-style: dotted;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+#paragraph_four {
+    font-size: large;
+    color: #14274e;
+    align-items: left;
+    margin: 10px;
+    border-style: dotted;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+#paragraph_five {
+    font-size: large;
+    color: #14274e;
+    align-items: left;
+    margin: 10px;
+    border-style: dotted;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+#paragraph_six {
+    font-size: large;
+    color: #14274e;
     display: flex;
     justify-content: left;
     margin: 10px;
 }
 
-#list {
+em.paragraph_six {
+    color:#7292d2;
+    text-decoration: double;
+    font-weight: 30000;
+}
+
+#paragraph_seven {
     font-size: large;
-    color: #54161E;
+    color: #14274e;
     display: flex;
     justify-content: left;
     margin: 10px;
 }
 
-#message_header {
-    font-size: large;
-    color: #1d1919;
+
+#smell_header {
     display: flex;
-    justify-content: space-evenly;
     justify-content: left;
-    margin: 10px;
+    font-size: large;
+    color: #7292d2;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
 }
 
-#message {
-    font-size: large;
-    color: #1d1919;
+#smell_info {
+    border-top: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
     display: flex;
-    justify-content: space-evenly;
-    justify-content: right;
-    margin: 10px;
-}
-
-#go_header {
-    font-size: large;
-    color: #1d1919;
-    display: flex;
-    justify-content: space-evenly;
     justify-content: left;
-    margin: 10px;
-    margin-bottom: 2px;
-}
-
-#go {
     font-size: large;
-    color: #54161E;
-    display: flex;
-    justify-content: space-evenly;
-    justify-content: right;
-    margin-top: 2px;
+    color: #14274e;
     margin: 10px;
 }
-
-*/
 
 #affirmation {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

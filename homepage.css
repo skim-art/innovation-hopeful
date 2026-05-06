@@ -218,3 +218,16 @@ button.content {
     min-height: 100px;
     font-family: "Lora";
 }
+
+button.bottom {
+    font-size: 100px;
+    background-color:#32b3c2;
+    color:#FDEADD;
+    font-family: "Lora";
+
+    text-decoration: none;
+    border-style:ridge;
+
+    padding: 15px;
+    margin-top: 75px;
+}

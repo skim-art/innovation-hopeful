@@ -53,18 +53,38 @@ button.NAV {
 
 /* INFO */
 
+
 .header {
     font-size:100px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     margin-left: 50px;
+    margin-bottom: 0px;
+}
+
+.layout {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img.about {
+    width: 600px;
+    length: 900px;
+    display: flex;
+    justify-content: right;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    padding-left: none;
+    padding-top: none;
 }
 
 .info {
     margin-left: 50px;
-    margin-right: 33%;
-    font-size: 24px;
+    font-size: 33px;
+    padding-right: none;
+    padding-top: 100px;
+    margin-right: 75px;
 }
 
 em {
-    color:#32b3c2;
+    color: #7292d2;
 }

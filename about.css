@@ -56,9 +56,9 @@ button.NAV {
 
 .header {
     font-size:100px;
-    padding-bottom: 0px;
+    padding-bottom: -20px;
     margin-left: 50px;
-    margin-bottom: 0px;
+    margin-bottom: -317px;
 }
 
 .layout {
@@ -71,17 +71,18 @@ img.about {
     length: 900px;
     display: flex;
     justify-content: right;
-    margin-right: 400px;
+    margin-right: 300px;
     margin-bottom: 100px;
     padding-left: none;
     padding-top: none;
+    margin-left: 100px;
 }
 
 .info {
     margin-left: 50px;
     font-size: 33px;
     padding-right: none;
-    padding-top: 100px;
+    padding-top: 300px;
     margin-right: 75px;
 }
 
